@@ -1,0 +1,38 @@
+<h3><i class="fas fa-book-reader"></i> StoryBooks</h3>
+<div class="section">
+    <p class="lead">Create public and private stories from your life</p>
+</div>
+<div class="divider"></div>
+<div class="section">
+
+    <form action="/auth/login" method="POST" class="col s12">
+        <div class="row">
+            <div class="input-field">
+                <input type="text" id="username" name="username" value="twopik@gmail.com">
+                <label for="username">Username</label>
+            </div>
+            <div class="input-field">
+                <input type="password" id="password" name="password" value="oilgas">
+                <label for="password">Password</label>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Sign In" class="btn">
+        </div>
+    </form>
+
+    <a id="login-register-link" href="/register">New to StoryBooks? Create an account</a>
+
+    <div style="padding: 1rem;">
+        <hr class="fainted" style="left:0;" />
+        <span style="display: inline-block;width:100%;">or</span>
+        <hr class="fainted" style="right:0;" />
+    </div>
+
+    <a href="/auth/google" class="btn red darken-1">
+        <i class="fab fa-google left"></i> Log In With Google
+    </a>
+    <a style="margin-top: 1rem;" href="/auth/facebook" class="btn blue darken-1">
+        <i class="fab fa-facebook left"></i> Log In With Facebook
+    </a>
+</div>
